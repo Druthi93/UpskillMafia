@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{ 
+    background-image: url("https://img.freepik.com/free-vector/geometric-science-education-background-vector-gradient-blue-digital-remix_53876-125993.jpg?size=626&ext=jpg&ga=GA1.1.1887574231.1711756800&semt=ais");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    line-height: 1.5;
+}
+.main{
+    display:flex;
+    width:100%;
+    background-image: url('./images/bg.avif');
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    padding: 2%;
+}
+.navbar{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    display: flex;
+    height: 50%;
+    justify-content: space-between;
+}
+.selection{
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.selection a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.4s;
+}
+.selection a:hover{
+    color: orange;
+    font-weight: bold;
+}
+.sign{
+    width: 25%;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    justify-content: space-around;
+    background-color: green;
+    font-size: 1.3em;
+    transition: 0.5s;
+}
+.sign a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+.sign a:hover{
+    color: black;
+    font-weight: bold;
+}
+.down{
+    display: flex;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    font-size: 90%;
+    padding-left:5%;
+    color: white;
+}
+.left button{
+    background-color: green;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    font-size: 150%;
+    width: 20%;
+    padding: 2%;
+    display: flex;
+    font-weight: bold;
+    transition: 0.4s;
+}
+.left button:hover{
+    box-shadow: 3px 3px 9px;
+}
+.left button:active{
+    background-color: black;
+}
+.right{
+    display: flex;
+    width: 35%;
+    padding-right: 5%;
+}
+.right img{
+    width: 100%;
+    margin-left: 25%;
+}
+.blink
+{
+    color: white;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.773);
+}
+.footer a{
+    color: black;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.footdown{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 5%;
+    font-size: 150%;
+}

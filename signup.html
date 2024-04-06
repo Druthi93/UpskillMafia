@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up</title>
+<style type="text/css">
+    *{
+        margin:0;
+        padding:0;
+        font-family:arial;
+    }
+    section{
+        display:flex;
+        width:100%;
+        align-items:center;
+        justify-content:center;
+        background-image: url('./bg.avif');
+        background-size:cover;
+    }
+    section .div1{
+        border:5px solid rgba(255, 240, 220, 0.575);
+        width:50%;
+        padding:30px;
+        border-radius:10px;
+        font-size:120%;
+        background-color:rgba(255, 255, 255, 0.704);
+        box-shadow: 0 0 20px black;
+    }
+    form{
+        align-content: center;
+        justify-content: center;
+        margin-top:5%;
+        width:90%;
+    }
+    .lbutton{
+        cursor:pointer;
+        width:30%;
+        font-size:120%;
+        margin-left:20%;
+        margin-right:20%;
+        border-radius:8px;
+        padding-bottom:1%;
+        background-color:rgb(228, 83, 83);
+    }
+    input{
+        margin-left:5px;
+        width:90%;
+        font-size:65%;
+        border-radius:5px;
+        border-width:2px;
+        background-color: white;
+    }
+    .lbutton:active{
+        opacity:0.7;
+    }
+    p{
+        display:inline;
+    }
+    .condition:hover{
+        text-decoration:underline;
+    }
+</style>
+</head>
+<body>
+    <section>
+        <div class="div1">
+            <form action="./index1.html">
+                <label style="font-family:Roboto;font-size:42px;">First Name:<p style="color:red;font-size:30px;">*</p>
+                    <input type="text" placeholder="  Enter Your First Name" required>
+                </label><br><br>
+                <label style="font-family:Roboto;font-size:42px;">Last Name:<p style="color:red;font-size:30px;">*</p>
+                    <input type="text" placeholder="  Enter Your Last Name" required>
+                </label><br><br>
+                <label style="font-family:Roboto;font-size:42px;">Email:<p style="color:red;font-size:30px;">*</p>
+                    <input type="email" placeholder="  Enter Email ID" required>
+                </label><br><br>
+                <label style="font-family:Roboto;font-size:42px;">Phone Number:<p style="color:red;font-size:30px;">*</p>
+                    <input type="tel" placeholder="  Enter Your Mobile Number" required pattern="[1-9].{9}">
+                </label><br><br>
+                <label style="font-family:Roboto;font-size:42px;">Password:<p style="color:red;font-size:30px;">*</p>
+                    <input type="password" placeholder="  Enter Password" required>
+                </label><br><br>
+                <label style="font-family:Roboto;font-size:42px;">Confirm Password:<p style="color:red;font-size:30px;">*</p>
+                    <input type="password" placeholder="  Confirm Your Password" required>
+                </label><br><br>
+                <label style="font-family:Roboto;font-size:42px;">Country:<p style="color:red;font-size:30px;">*</p>
+                    <input type="text" placeholder="  Enter Your Country" required>
+                </label><br><br>
+                <label>
+                    <input type="submit" value="SignUp" class="lbutton">
+                </label><br><br>
+                <p style="font-size:110%;text-align:center">&nbsp&nbsp&nbsp&nbsp&nbspBy signing in or creating an account,you agree with our </p><br><p class="condition" style="color:blue;font-size:120%">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspTerms & conditions</p><p style="font-size:120%"> and </p><p style="color:blue;font-size:120%" class="condition">Privacy statement</p>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
